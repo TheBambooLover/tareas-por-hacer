@@ -3,7 +3,7 @@ const {v4:uuidv4}=require('uuid');
 class Tarea {
     id = '';
     desc = '';
-    completadoEn = null;
+    completadoEn = "null";
     creadoEn = null;
 
     constructor(desc) {
