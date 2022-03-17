@@ -1,7 +1,7 @@
 const Tarea = require('./tarea');
 
 class Tareas{
-    _listado = {};
+    _listado = {};  
 
     get listadoArr() {
         const listado = [];
@@ -16,6 +16,14 @@ class Tareas{
 
     constructor(){
         this._listado={};
+    }
+
+    cargarTareasFromArray( tareas = [] ){
+
+        tareas.forEach(tarea=>{
+            this._listado[tarea.id] = tarea;
+        })
+
     }
 
     crearTarea(desc = ''){

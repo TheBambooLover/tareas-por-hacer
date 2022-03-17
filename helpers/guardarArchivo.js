@@ -17,7 +17,7 @@ const leerDB = ()=>{
 
     console.log(data);
 
-    return null;
+    return data;
 
 }
 
