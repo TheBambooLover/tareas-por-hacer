@@ -1,14 +1,1 @@
-[
-    {
-        "id": "e42879e5-be54-46ec-99eb-977931dfbb08",
-        "desc": "Recolectar las gemas del infinito",
-        "completadoEn": null,
-        "creadoEn": 1647303356621
-    },
-    {
-        "id": "5c501bef-3349-4338-baf8-6c6390f687b7",
-        "desc": "Terminar esta tarea",
-        "completadoEn": "17/3/2022",
-        "creadoEn": 1647546822090
-    }
-]
+[{"id":"e42879e5-be54-46ec-99eb-977931dfbb08","desc":"Recolectar las gemas del infinito","completadoEn":null,"creadoEn":1647303356621},{"id":"5c501bef-3349-4338-baf8-6c6390f687b7","desc":"Terminar esta tarea","completadoEn":"17/3/2022","creadoEn":1647546822090}]

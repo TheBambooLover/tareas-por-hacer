@@ -44,7 +44,7 @@ class Tareas{
         // return completado
         let x = 1;
         this.listadoArr.forEach(tarea => {
-            if (tarea.completadoEn !=null){
+            if (tarea.completadoEn){
                 console.log(colors.green('%s. %s :: Completada'),x,tarea.desc)
                 x++;
             }else
@@ -53,6 +53,27 @@ class Tareas{
                 x++;
             }
         });
+    }
+
+    listarPendientesCompletadas(completadas = true){
+        let x = 1;
+        this.listadoArr.forEach(tarea=>{
+            if (completadas){
+                if(tarea.completadoEn){
+                    console.log(colors.green('%s. %s :: Completada'),x,tarea.desc);
+                    x++;
+                }
+            }else
+            {
+                if(!tarea.completadoEn){
+                    console.log(colors.red('%s. %s :: Pendiente'),x,tarea.desc);
+                    x++;
+                }else{
+                    
+                }
+            }
+            
+        })
     }
 }
 
